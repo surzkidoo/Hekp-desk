@@ -1,0 +1,363 @@
+
+:root{
+    --primary:#ffc107;
+}
+body{
+    background-color: rgba(228, 229, 230, 0.527);
+}
+p{
+    margin-bottom: 0;
+}
+.text-avatar{
+    font-size: 15px;
+    color: #5f656b;
+}
+.section-indicator{
+    font-size: 13px;
+    border:1px solid rgb(106, 207, 23);
+    color: rgb(106, 207, 23);
+}
+.post{
+    box-shadow: 1px 2px 6px 2px rgb(197, 193, 193);
+}
+.myshadow{
+    box-shadow: 1px 2px 6px 2px rgba(197, 193, 193, 0.247);
+
+}
+.post-time{
+    font-size: 13px;
+    color: #5f656b;
+}
+.post-title{
+    font-size: 20px;
+}
+.post-sum{
+    font-size: 12px;
+}
+.post-avatar{
+   border: 2px solid var(--primary);
+}
+
+.trending {
+    font-size: 18px;
+}
+ul{
+    list-style-position: outside;
+    padding: 0;
+    margin: 0;
+}
+.trending + ul li {
+    list-style: none;
+    list-style-position: outside;
+    font-size: 15px;
+}
+.navbar{
+    position:fixed;
+}
+.menuitem{
+    display: inline-block; 
+    list-style-type: none;
+}
+.menuitem{
+    margin-left:20px;
+}
+.category-container{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.category-container li{
+    display:inline-block;
+    padding: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+  
+}
+.category-container li:hover{
+    display:inline-block;
+    padding: 15px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    color: black;
+}
+.back{
+    background-color: white;
+}
+.search{
+border: none;
+outline: none;
+width: 600px;
+padding: 10px;
+}
+.slt{
+    border: none;
+    outline: none;
+    width: 100px;
+    text-align: center;
+}
+.btns{
+    border-radius: 0px;
+}
+.pop{
+    position: absolute;
+    z-index: 100;
+    width: 250px;
+    margin: 0px;
+    display: none;
+}
+.pop ul{
+  margin: 0px;
+  
+}
+.pop li{
+    list-style-type: none;
+    padding: 5px 0px;
+
+}
+.pop li:hover{
+    list-style-type: none;
+    padding: 5px;
+    background-color: cadetblue;
+    
+}
+.pop:hover{
+    display: block;
+}
+.avartar:hover  .pop{
+    display: block;
+}
+
+.category ul{
+    list-style-type:disc;
+    list-style-position: inside;   
+}
+.category li{
+   padding:8px 0px;
+}
+.category h5{
+    background-color: #ffc107 ;
+    padding: 10px;
+}
+
+.aimg{
+    border: 2px solid white;
+}
+/* postpage */
+.overlay{
+    top: 0;
+    position: fixed;
+    background-color: #343a4091;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.cancel{
+    cursor: pointer;
+    font-size: 19px;
+}
+.post-comment {
+   height: 420px;
+   width: 400px;
+   background-color: #fff;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+.post-comment input{
+    background-color: #ffc107d3;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+.post-comment input:hover{
+    background-color: #ffc107;
+
+}
+.addcomment{
+    position: fixed;
+    bottom: 15px;
+    width: 44px;
+    font-weight: bolder;
+    height: 44px;
+    border-radius: 50%;
+    z-index: 20;
+    right: 22%;
+}
+
+
+.reply-btn{
+    background-color: #c0c4c9;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.post-content{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.link{
+    margin-right: 3px;
+    padding: 5px;
+    color: white;
+    background-color: #ffc107;
+    border: 1px solid white;
+}
+.link:hover, .active{
+    color: #ffc107;
+    border: 1px solid #ffc107;
+    background-color: white;
+}
+/* endpostpage */
+/* profile */
+
+.header-bio{
+    padding: 8px;
+    border-bottom: 2px solid #343a40 ;
+    font-size: 18px;
+}
+.header-bio + p{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.post-container{
+    height: 400px;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+.post-profile{
+    border: 2px solid #343a40;
+}
+.tag{
+    background-color: rgb(231, 231, 220);
+    list-style-type: none;
+    font-size: 12px;
+}
+.action-box button{
+    font-size: 13px;
+    background-color: rgb(56, 57, 77);
+    color:white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin:0 5px;
+}
+
+.label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.label-value{
+    font-size: 18px;
+}
+
+/* 
+bigin category */
+.catnav{
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.catnav:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+/* 
+message */
+
+.message{
+    background-color: #ffc1077e;
+    border-radius: 10px;
+    padding: 5px;
+}
+.message-container{
+    height: 450px;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    
+}
+.messagebox{
+    width: 100%;
+}
+
+.date{
+    font-size: 10px;
+}
+
+.textinput{
+    width: 100%;
+    background-color: white;
+}
+.input-field:focus{
+   
+    box-shadow: 0 0 0 0.2rem #ffc107b7;
+    border: #ffc107;
+}
+.input-field{
+   outline: none;
+   border: none;
+}
+.header{
+   
+    width: 100%;
+}
+.header2{
+    overflow: hidden;
+}
+
+@media  (max-Width:786px){
+    .header-search{
+   
+        position: absolute;
+        width: 300px;
+        padding: 1px;
+        height: 30px;
+        margin: 0;
+        left: 0;
+        background-color: #5f656b;
+        display: none !important;
+    }
+    .search{
+        border: none;
+        outline: none;
+        width: 250px;
+        padding: 1px;
+        }
+        .slt{
+            border: none;
+            outline: none;
+            width: 50px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .btns{
+            border-radius: 0px;
+        }
+    
+   
+    .menuitem  a{
+        height: 35px !important;
+        font-size:14 px;
+      
+     margin: 0px !important;
+    }
+    .category-container{
+      
+        overflow-x: scroll;
+       
+    }
+}

@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(47, 196, 60);
+    height: 100vh;
+    color: white;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+header:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    background-color:rgba(235, 236, 235, 0.1);
+    height: 100vh;
+    width: 20%;
+    transform: rotate(30deg);
+    z-index: 2;
+}
+.btnc{
+    border-width: 5px;
+    font-size: 20px;
+    z-index: 99;
+}
+.review{
+    border-radius: 50%;
+    border:9px solid rgb(47, 196, 60);
+}
+.star{
+    position: absolute;
+    top: 50%;
+    left:69%;
+    font-size: 25px;
+    color:gold;
+    background-color: white;
+}
+q{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro{
+    font-size: 40px;
+}
+.menu{
+    list-style-type: none;
+}
+#rad{
+    display: none;
+}
+.menu li{
+    background-color: rgb(47, 196, 60);
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+  
+}
+.menu li:hover{
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    color: rgb(47, 196, 60);
+    padding: 20px;
+  
+}
+.thumb{
+    border: 30px solid  rgb(47, 196, 60);
+    transform: scale(0.7);
+}
+.des{
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(56, 52, 52);
+    padding-top:60px;
+    color: rgb(218, 214, 214);
+   }
+   hr{
+       color: red;
+   }
+   .footer-contact{
+       color: gray;
+   }
+   .footer-contact a{
+       text-decoration:none;
+       color:inherit;
+   }
+   .footer-contact a:hover{
+       color:white;
+   }
+   .footer-contact li{
+       list-style-type:none;
+       padding-bottom: 10px;
+       
+   }
+   .s{
+       padding: 10px;
+       margin-right:4px;
+       border-radius:10px;
+       background-color:white;
+       color:rgb(47, 196, 60);
+   }
+   .fa-facebook:hover{
+       background-color:rgb(68, 68, 158);
+       color: white;
+   }
+   .fa-twitter:hover{
+       background-color:lightskyblue;
+       color: white;
+   }
+   .fa-instagram:hover{
+       background-color:rgb(219, 16, 77);
+       color: white;
+   }
+   .fa-linkedin:hover{
+       background-color:rgb(11, 235, 235);
+       color: white;
+   }
+   footer input{
+       margin-bottom:20px;
+       height: 40px;
+       width:100%;
+       outline:none;
+       border:none;
+       padding: 2px;
+   }
+   #subscribe:hover{
+    color:  rgb(47, 196, 60);
+    background-color: white;
+    border:2px solid rgb(47, 196, 60) ;
+   }
+   #subscribe{
+       font-weight: bolder;
+       background-color: rgb(47, 196, 60);
+       color: white;
+   }

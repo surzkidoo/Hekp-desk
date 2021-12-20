@@ -1,0 +1,45 @@
+.head{
+    color: white;
+}
+.div{
+    background-color: white;
+}
+.container2{
+    background-color: rgb(110, 221, 76);
+}
+
+.rmtext{
+    color: yellow;
+    font-style: italic;
+  
+}
+.cacc{
+    color: red;
+    font-style: italic;
+}
+.container2 .inputbox input{
+    border: none;
+    outline: none;
+    width:95%;
+    height: 40px;
+    
+}
+.container2 .inputbox span{
+    width: 3%;
+    display: inline-block;
+}
+.submit{
+    width: 100%;
+    background-color: rgb(233, 229, 17);
+    border: none;
+    height: 45px;
+   
+    
+}
+.container2 .inputbox{
+    background-color: white;
+    font-size: 16px;
+}
+.container-1{
+    height: 100vh;
+}
